@@ -1,0 +1,34 @@
+:root {
+    --color: #2E343F;
+    --position: 0;
+    --raduius: 0;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .inputContainer label {
+    margin-right: 10px;
+  }
+  
+  .scroll {
+    position: relative;
+    padding: 10px 20px;
+  }
+  
+  .box {
+    transform: translateX(var(--position));
+    background: var(--color);
+    border-radius: var(--radius);
+    width: 200px;
+    height: 200px;
+    transition: width 2s;
+    display: inline-block;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
